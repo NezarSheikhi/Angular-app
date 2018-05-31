@@ -1,0 +1,9 @@
+
+<section class="containt">
+    <form class="form" ng-submit="login(user)">
+        <input class="mdl-textfield__input" id="sample3" type="email" ng-model="user.email" placeholder="Email">
+        <input class="mdl-textfield__input" id="sample3"type="password" ng-model="user.password" placeholder="Password">
+        <button class="btn mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" type="submit">Login</button>
+    </form>
+    <p class="error-mesage"><small>{{error}}</small></p>
+</section>

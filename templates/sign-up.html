@@ -1,0 +1,9 @@
+<section class="containt">
+    <form class="form" ng-submit="signUp(user)">
+        <input class="mdl-textfield__input" type="email" ng-model="user.email" placeholder="Email">
+        <input class="mdl-textfield__input"  type="password" ng-model="user.password" placeholder="Password">
+        <input class="mdl-textfield__input"  type="text" ng-model="user.username" placeholder="Username">
+        <button class="btn mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" type="submit">Sign Up</button>
+    </form>
+    <p><small>{{error}}</small></p>
+</section>
